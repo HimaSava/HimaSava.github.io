@@ -6,7 +6,7 @@ function setup() {
   var cnv = createCanvas(windowWidth-10, 800);
   cnv.style('display', 'block');
   cnv.parent('circuit');
-  setInterval(drawit,200);
+  setInterval(drawit,400);
 }
 
 function drawit(){

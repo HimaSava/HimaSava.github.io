@@ -6,14 +6,14 @@ $(".navTrigger").click(function () {
 });
 
 $(window).scroll(function () {
-  if ($(document).scrollTop() > 400) {
+  if ($(document).scrollTop() > 500) {
     $(".nav div.logo a").removeClass("affix2");
     $(".nav div.main_list ul li a").removeClass("affix2");
     $(".nav div.logo a").addClass("affix3");
     $(".nav div.main_list ul li a").addClass("affix3");
     $(".nav").addClass("affix");
     console.log("OK");
-  } else if ($(document).scrollTop() <= 400) {
+  } else if ($(document).scrollTop() <= 500) {
     $(".nav").removeClass("affix");
     $(".nav div.logo a").removeClass("affix3");
     $(".nav div.main_list ul li a").removeClass("affix3");
