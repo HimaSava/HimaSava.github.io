@@ -1,193 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--Bootstrap-->
-    <link rel="stylesheet"
-        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
-        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
-        integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
-        integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
-        crossorigin="anonymous"></script>
-    <script>$(document).ready(function () { $('body').bootstrapMaterialDesign(); });</script>
 
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+      integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script> -->
+    <script
+      src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+      integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+      integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("body").bootstrapMaterialDesign();
+      });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <title>COVID19</title>
+  </head>
 
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
-    <script src="js/anim.js"></script>
-    <title>HimaSava</title>
-</head>
-
-<body>
-    
+  <body>
     <nav class="nav">
-        <div class="container_nav">
-            <div class="logo">
-                <img src="img/Logo1.0.bmp">
-                <a href="index.html" class="affix2  navbar-brand">HimaSava</a>
-            </div>
-            <div id="mainListDiv" class="main_list">
-                <ul class="navlinks">
-                    <li><a href="index.html" class="affix2">Home</a></li>
-                    <li><a href="blog.html" class="affix2">Blog</a></li>
-                    <li><a href="forum.html" class="affix2">Forum</a></li>
-                    <li><a href="about.html" class="affix2">About</a></li>
-                </ul>
-            </div>
+      <div class="container_nav">
+        <div class="logo">
+          <a href="home.html" class="affix2 navbar-brand">COVID19</a>
         </div>
-    </nav>
-    
-
-    <section class="home">
-        <main class="container_1">
-            <div id="circuit"></div>
-            <section class="front">
-            <section class="logo" data-aos="fade-right">
-                <img src="img/Logo1.0.bmp" alt="">
-            </section>
-            <section class="slogan">
-                <div id="something-else">
-                    <span>Welcome to the<span class="digital"><br>World of Electronics</span> <br> Full of <span
-                            class="technology"><br>Awesome Project</span></span>
-
-                </div>
-                <span id="typed"></span>
-            </section>
+        <div id="mainListDiv" class="main_list">
+          <ul class="navlinks">
+            <li><a href="index.html" class="affix2">Home</a></li>
+            <li><a href="notification.html" class="affix2">Notification</a></li>
+            <li><a href="contacts.html" class="affix2">Contacts</a></li>
             
-        </section>
-        
-        </main>
-        <script>
-            var typed = new Typed('#typed', {
-                stringsElement: '#something-else',
-                typeSpeed: 40,
-
-            });
-        </script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init({
-                duration: 1200
-            });
-        </script>
-    </section>
-
-    
-    
-    <section class="About">
-        <section class="title">About the Blog</section>>
-        <section class="text">
-            This is where I would write about the blog. I have no idea what to write here so i am putting this as a place holder. 
-            BTW it is 3am right now and I really hope that I am able to get this project complete before tomorrow morning. Well that
-            is the plan atleast. Now lets check how this text looks on the screen.
-
-            I wanted to see how a lot of text will look so I am pasting the introduction of LOL from wikipedia
-            We and our partners store and/or access information on a device, such as cookies and process personal data, such as unique identifiers and standard information sent by a device for personalised ads and content, ad and content measurement, and audience insights, as well as to develop and improve products.
-
-            So that didnt work so I am just going to have to put some random stuff here instead. I love my life, I hate my life I am 
-            Really sleepy right now I really want to sleep but I have to finish this 
-            This is stupid.
-            <br>
-            I have had a brilient Idea
-            <br><br><br><br><br><br><br><br><br>
-            GET IT??
-            <br><br><br><br><br>
-
-        </section>
-    </section>
-
-
-    <section class="blog">
-        <section class="row">
-            <section class="blogsmall" data-aos="fade-right">
-                This is good      
-            </section>
-            <section class="blogsmall" data-aos="fade-left">
-                This is good      
-            </section>
-        </section>
-
-        <section class="doublerow">
-            <section class="bloglarge" data-aos="fade-right">
-                This is badd I dont know why
-            </section>
-            <section class="col">
-                <section class="blogsmall" data-aos="fade-left">
-                    This is good      
-                </section>
-                <section class="blogsmall" data-aos="fade-left">
-                    This is good      
-                </section>
-            </section>
-        </section>
-
-        <section class="row">
-            <section class="blogsmall" data-aos="fade-right">
-                This is good      
-            </section>
-            <section class="blogsmall" data-aos="fade-left">
-                This is good      
-            </section>
-        </section>
-
-    </section>
-
-
-
-    <div class="footer">
-        <div id="motto">
-          SUP people
-        </div>
-        <div id="footer">
-          <div class="footerWrap">
-              <div class="toe">
-                <h3>Links</h3>
-                <a href="#">Blog</a>
-                <a href="#">Forum</a>
-                <a href="#">About me</a>
-              </div>
-              
-              <div class="toe">
-                <h3>Follow</h3>
-                <div id="social">
-                  <a id="linkedin" href="#" title="Linkedin"></a>
-                  <a id="twitter" href="#" title="Twitter"></a>
-                  <a id="instagram" href="#" title="Instagram"></a>
-                  <a id="github" href="#" title="GitHub"></a>
-                  
-                </div>
-                    
-              </div>
-            </div>
-          </div>
-        <div id="legal">
-          This site was developed by Himanshu Savargaonkar
-          <br>As I support Open Source Community the code is available on GitHub
-            <br>In case of any doubts in my code or even other wise do contact me over email
-      <br><br>© Copyright 2020 Himanshu Arvind Savargaonkar
+          </ul>
         </div>
       </div>
+    </nav>
+    <section class="boxs">
+      <script>
+        $.getJSON("https://api.rootnet.in/covid19-in/notifications", function (
+          data1
+        ) {
+          var text = `
+          <h1>Notifications</h1><br>
+                      <h3> <a href=" ${data1.data.notifications[0].link}" target="_blank" style="color:#4285f4">${data1.data.notifications[0].title}<br></a></h3>
+                        <br>
+                        <h3> <a href=" ${data1.data.notifications[1].link}" target="_blank" style="color:#4285f4">${data1.data.notifications[1].title}<br></a></h3>
+                        <br>
+                        <h3> <a href=" ${data1.data.notifications[2].link}" target="_blank" style="color:#4285f4">${data1.data.notifications[2].title}<br></a></h3>
+                        <br>
+                        <h3> <a href=" ${data1.data.notifications[3].link}" target="_blank" style="color:#4285f4">${data1.data.notifications[3].title}<br></a></h3>
 
+                            `;
+          $(".myp").html(text);
+        });
+        var st;
+        $.ajax({
+          url: "https://geolocation-db.com/jsonp",
+          jsonpCallback: "callback",
+          dataType: "jsonp",
+          type: "GET",
+          success: myCallback,
+        });
+        function myCallback(response) {
+          st = response.state;
+          // Do whatever you need with result variable
+          $.getJSON("https://api.rootnet.in/covid19-in/contacts", function (
+            data1
+          ) {
+            var h = "number-tollfree";
+            var text = `
+            <h3>Toll-Free Number: <a href="tel:  ${data1.data.contacts.primary["number"]}" style="color:#4285f4"> ${data1.data.contacts.primary["number"]}</a></h3>
+                            <h3>Toll-Free Number: <a href="tel:  ${data1.data.contacts.primary["number-tollfree"]}" style="color:#4285f4"> ${data1.data.contacts.primary["number-tollfree"]}</a></h3>`;
 
-      <!-- Jquery needed -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/index.js"></script>
+            var te = `<a href=${data1.data.contacts.primary["facebook"]} target="_blank" ><i class="fab fa-facebook"></i></a>
+                                      <a href="${data1.data.contacts.primary["twitter"]}"" target="_blank"><i class="fab fa-twitter"></i></a>
+                                      <a href="mailto:${data1.data.contacts.primary["email"]}" target="_blank"><i class="fa fa-envelope"></i></a>
+                                      <a href=${data1.data.contacts.primary["media"][0]} target="_blank"><i class="fa fa-newspaper-o"></i></a>`;
+            var t = ``;
+            for (let r of data1.data.contacts.regional) {
+              if (r.loc == st) {
+                t += `<h3> ${r.loc}</h3>
+                                  <h3>Number: <a href="tel: ${r.number}" style="color:#4285f4">${r.number}</a></h3>
+                                  `;
+              }
+            }
+            $(".mypanel1").html(text);
+            $(".social").html(te);
 
-    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+            $(".mypanel2").html(t);
+          });
+        }
+      </script>
+      <div class="box myp"></div>
+      <div class="line"></div>
 
-
-
-</body>
-
+      <section class="details">
+        <div class="card-body mypanel1"></div>
+        <br />
+        <br />
+        <div class="Social-media social"></div>
+        <br /><br />
+        <div class="card-body mypanel2"></div>
+      </section>
+    </section>
+    <h1>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    </h1>
+    <script src="js/home.js"></script>
+    <!-- Footer -->
+    <footer class="bg-dark text-white mt-5 p-4 text-center">
+      <h3>VIT HACK &copy 2020</h3>
+    </footer>
+  </body>
 </html>
